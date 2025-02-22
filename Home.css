@@ -1,0 +1,152 @@
+/* General styling for the page */
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Page linking area, background is SkillsUSA blue*/
+a {
+    background-color: #003b5c; 
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #003b5c;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* SkillsUSA Gold when hovering over each link */
+a:hover {
+    background-color: #f1b932; 
+    border-color: #f1b932;
+    color: #003b5c;
+}
+
+/* Header */
+#header {
+    background-color: #003b5c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+#header h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#header h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Navigation */
+#nav {
+    background-color: #003b5c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    margin: 0 15px;
+}
+
+#nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    padding: 6px 12px; 
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #f1b932;
+    color: #003b5c;
+}
+
+/* Officer & Member Portraits */
+.roles {
+    margin-top: 40px;
+}
+
+.roles h2 {
+    font-size: 30px;
+    color: #003b5c;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.roles p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343842;
+}
+
+.roles .portraits {
+    height: 350px;
+    max-height: 350px;
+    border: 5px solid #003b5c;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #f1b932;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.accent-section {
+    background-color: #d4351c;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.accent-section h2 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.accent-section p {
+    font-size: 18px;
+}
+
+/* Design to make the website responsive */
+@media screen and (max-width: 768px) {
+    #nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav ul li {
+        margin: 5px 0;
+    }
+
+    .roles .portraits {
+        height: 250px;
+    }
+}

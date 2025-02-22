@@ -1,0 +1,107 @@
+/* General styling for the page */
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+#header {
+    background-color: #003b5c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+#header h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#header h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Navigation */
+#nav {
+    background-color: #003b5c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    margin: 0 15px;
+}
+
+#nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #f1b932;
+    color: #003b5c;
+}
+
+/* The styling for the section */
+h2 {
+    font-size: 28px;
+    color: #003b5c;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+img {
+    margin: 10px;
+    border: 3px solid #003b5c;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Career Days */
+.career_day {
+    margin-top: 40px;
+}
+
+/* Candy Bash */
+.candy_bash {
+    margin-top: 40px;
+}
+
+/* CTE Olympics */
+.cte_olympics {
+    margin-top: 40px;
+}
+
+/* Club Trips */
+.club_trip {
+    margin-top: 40px;
+}
+
+/* Football Game */
+.game {
+    margin-top: 40px;
+}
