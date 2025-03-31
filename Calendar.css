@@ -1,0 +1,131 @@
+/* General styling for the page */
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+#header {
+    background-color: #003b5c;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+#header h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#header h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Navigation */
+#nav {
+    background-color: #003b5c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    margin: 0 15px;
+}
+
+#nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #f1b932;
+    color: #003b5c;
+}
+
+/* Style for the calendar itself */
+.calendar {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendar .month {
+    font-size: 30px;
+    font-weight: bold;
+    color: #003b5c; 
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+th {
+    background-color: #003b5c;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f1f1f1;
+    color: #343842;
+    border: 1px solid #ddd;
+}
+
+/* Events */
+.event {
+    background-color: #f1b932;
+    color: #003b5c;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.event-text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Hover */
+.event:hover {
+    background-color: #003b5c; /* SkillsUSA Blue */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #f1b932; /* SkillsUSA Gold */
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
